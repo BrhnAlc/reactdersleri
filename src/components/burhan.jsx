@@ -1,10 +1,10 @@
 
 
 
-
 const Burhan = () => {
-    return(
-       <div>Burhan</div>
-    )
+  return(
+    <div>Burhan alaca </div>
+  )
 }
+
 export default Burhan

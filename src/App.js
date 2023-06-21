@@ -1,13 +1,15 @@
+import Burhan from "./components/Burhan";
+import Deneme from "./components/deneme";
 
 
 
 function App() {
-  
+
   return (
     <div className="App">
-      
-     <Burhan/>
 
+ <Deneme/>
+ <Burhan/>
     </div>
   );
 }
