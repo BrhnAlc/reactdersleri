@@ -1,18 +1,23 @@
-import Burhan from "./components/Burhan";
-import Deneme from "./components/deneme";
 
 
 
-function App() {
 
-  return (
-    <div className="App">
+import Burhan from "./components/Burhan.jsx";
+import Deneme from "./components/deneme.jsx";
 
- <Deneme/>
- <Burhan/>
-    </div>
-  );
+function  App() {
+
+  const props="props mantığı";
+
+
+return(
+  <div className="App">
+<Burhan alaca={props} />
+<Deneme/>
+
+<button onClick={clickFunc}>Tıkla</button>
+  </div>
+);
 }
 
 export default App;
- 

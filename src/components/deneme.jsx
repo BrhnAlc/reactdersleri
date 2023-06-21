@@ -1,9 +1,9 @@
 
 
 const Deneme = () =>{
-    return(
-        <div>Deneme</div>
-    )
+  return(
+    <div>Deneme</div>
+  )
 }
 
 export default Deneme

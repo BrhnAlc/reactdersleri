@@ -1,9 +1,10 @@
 
 
 
-const Burhan = () => {
+const Burhan = ({props}) =>{
+  console.log('1',props);
   return(
-    <div>Burhan alaca </div>
+    <div>{props}</div>
   )
 }
 
