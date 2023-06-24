@@ -1,3 +1,5 @@
+import Burhan from "./components/Burhan";
+import Footer from "./components/Footer";
 
 
 
@@ -6,7 +8,9 @@ function  App() {
 
 return(
   <div className="App">
-<h1>Hello world</h1>
+  
+<Burhan/>
+<Footer/>
   </div>
 );
 }
